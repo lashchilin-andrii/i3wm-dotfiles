@@ -15,7 +15,6 @@ This repository includes configuration files for:
 * 🚀 **[Rofi](https://github.com/davatorium/rofi)** — Application launcher and window switcher  
 * 💅 **[Kitty](https://sw.kovidgoyal.net/kitty/)** — GPU-accelerated terminal emulator  
 * 🔔 **[Dunst](https://dunst-project.org/)** — Lightweight notification daemon  
-* 📝 **[VSCodium](https://vscodium.com/)** — Includes `settings.json`  
 * 🔐 **[SDDM](https://github.com/sddm/sddm)** — Display/login manager  
 * 💻 **[GRUB](https://www.gnu.org/software/grub/)** — Bootloader configuration  
 * 📸 **[Flameshot](https://flameshot.org/)** — Powerful screenshot tool with editor  
