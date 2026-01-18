@@ -42,7 +42,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +2%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 2%-
 
 # Lock
-bindsym F10 exec --no-startup-id ~/.config/i3/lock.sh
+bindsym F10 exec --no-startup-id ~/.config/i3/scripts/lock.sh
 
 # Calculator
 bindsym XF86Calculator exec --no-startup-id kitty --name calc -e calc
@@ -193,7 +193,7 @@ gaps inner 10px
 # Startup wallpaer
 exec_always --no-startup-id feh --bg-scale /home/andrew/Pictures/wallpapers/wall.jpg
 # Executing wallpaper changing script
-bindsym $mod+Shift+w exec --no-startup-id ~/.config/i3/random_wallpaper.sh
+bindsym $mod+Shift+w exec --no-startup-id ~/.config/i3/scripts/random_wallpaper.sh
 
 # Languages
 exec --no-startup-id setxkbmap -layout us,ua,ru -option 'grp:alt_shift_toggle'
@@ -201,3 +201,5 @@ exec --no-startup-id setxkbmap -layout us,ua,ru -option 'grp:alt_shift_toggle'
 # Notify daemon
 exec --no-startup-id dunst
 
+# Keyboard brightness state
+bindsym Fn+Space exec --no-startup-id ~/.config/i3/scripts/kb_brightness_state.sh

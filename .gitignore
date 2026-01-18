@@ -2,9 +2,6 @@
 *
 
 # Don't ignore these folders
-VSCodium/***
-!VSCodium/**User/**
-!VSCodium/**User/**settings.json
 !dunst/**
 !flameshot/**
 !grub/**
