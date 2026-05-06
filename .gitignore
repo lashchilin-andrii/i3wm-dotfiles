@@ -1,18 +1,46 @@
-# Ignore everything
-*
+Here it is without tabs (one per line, clean):
 
-# Don't ignore these folders
-!dunst/**
-!flameshot/**
-!grub/**
-!gtk-3.0/**
-!gtk-4.0/**
-!i3/**
-!kitty/**
-!polybar/**
-!rofi/**
-!sddm/**
-
-# Also track README.md and .gitignore itself
-!README.md
-!.gitignore
+```
+.gtkrc-2.0
+Android Open Source Project/
+Electron/
+GNS3/
+Google/
+Mousepad/
+PortProton.conf
+QtProject.conf
+QtProject/
+VSCodium/
+VirtualBox/
+bluetuith/
+btop/
+calcurse/
+calibre/
+configstore/
+dconf/
+discord/
+fastfetch/
+firefox/
+fish/
+go/
+htop/
+kdeconnect/
+libreoffice/
+mimeapps.list
+obsidian/
+openmw/
+packets.txt
+pulse/
+qt5ct/
+qt6ct/
+qutebrowser/
+spotdl/
+spotify/
+systemd/
+transmission-daemon/
+transmission/
+unity3d/
+user-dirs.dirs
+user-dirs.locale
+uv/
+vlc/

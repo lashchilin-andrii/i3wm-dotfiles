@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Get the name of the active WI-FI connection
+ssid=$(nmcli -t -f active,ssid dev wifi | grep '^yes' | cut -d':' -f2)
+
+if [ -n "$ssid" ]; then
+    dunstify -i network-wireless "WI-FI" "$ssid"
+else
+    dunstify -i network-wireless-offline "Not connected to any WI-FI"
+fi
