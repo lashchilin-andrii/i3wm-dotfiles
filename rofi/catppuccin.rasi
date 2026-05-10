@@ -4,6 +4,7 @@
     border-col: #89b4fa;
     selected-col: #1E1D2F;
     blue: #7aa2f7;
+    pink: #ea76cb;
     fg-col: #D9E0EE;
     fg-col2: #F28FAD;
     grey: #D9E0EE;
