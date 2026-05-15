@@ -1,3 +1,3 @@
 #!/bin/bash
 
-feh --randomize --bg-scale ~/Pictures/wallpapers/*
+feh --randomize --bg-scale ~/pictures/wallpapers/*
