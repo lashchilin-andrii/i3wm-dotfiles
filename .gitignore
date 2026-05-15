@@ -40,7 +40,6 @@ systemd/
 transmission-daemon/
 transmission/
 unity3d/
-user-dirs.dirs
 user-dirs.locale
 uv/
 vlc/
