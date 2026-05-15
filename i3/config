@@ -51,7 +51,7 @@ for_window [instance="calc"] move position center
 for_window [instance="calc"] resize set 400 500
 
 # Screenshot (full screen)
-bindsym XF86Cut exec flameshot full -p ~/Pictures/Screenshots
+bindsym XF86Cut exec flameshot full -p ~/pictures/screenshots
 # Screenshot selection mode
 bindsym $mod+Shift+s exec flameshot gui -c 
 
@@ -191,7 +191,7 @@ for_window [class="^.*"] border pixel 1
 gaps inner 10px
 
 # Startup wallpaer
-exec_always --no-startup-id feh --bg-scale /home/andrew/Pictures/wallpapers/wall.jpg
+exec_always --no-startup-id feh --bg-scale /home/andrew/pictures/wallpapers/wall.jpg
 # Executing wallpaper changing script
 bindsym $mod+Shift+w exec --no-startup-id ~/.config/i3/scripts/random_wallpaper.sh
 
