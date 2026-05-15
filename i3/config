@@ -196,7 +196,7 @@ exec_always --no-startup-id feh --bg-scale /home/andrew/Pictures/wallpapers/wall
 bindsym $mod+Shift+w exec --no-startup-id ~/.config/i3/scripts/random_wallpaper.sh
 
 # Languages
-exec --no-startup-id setxkbmap -layout us,ua,ru,tr -option 'grp:alt_shift_toggle'
+exec --no-startup-id setxkbmap -layout us,ua,ru -option 'grp:alt_shift_toggle'
 
 # Notify daemon
 exec --no-startup-id dunst
