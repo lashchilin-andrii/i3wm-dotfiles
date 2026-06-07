@@ -8,12 +8,12 @@ i3lock \
   --layout-color bac2deff \
   --time-size 45 \
   --date-size 22 \
-  --time-font JetBrainsMono \
-  --date-font JetBrainsMono \
-  --layout-font JetBrainsMono \
-  --verif-font JetBrainsMono \
-  --wrong-font JetBrainsMono \
-  --greeter-font JetBrainsMono \
+  --time-font NotoSansMono \
+  --date-font NotoSansMono \
+  --layout-font NotoSansMono \
+  --verif-font NotoSansMono \
+  --wrong-font NotoSansMono \
+  --greeter-font NotoSansMono \
   --nofork \
   --inside-color 313244ff \
   --ring-color 89b4faff \

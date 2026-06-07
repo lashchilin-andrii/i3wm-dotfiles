@@ -8,13 +8,11 @@ configuration {
     modi: "run,drun,window";
     /* Number of rows to display in listview */
     lines: 5;
-    /* Font family and size */
-    font: "JetBrainsMono 14";
+    font: "Noto Sans Mono Bold 14";
     /* Enable application icons */
     show-icons: true;
     /* Set icon theme */
     icon-theme: "Papirus-dark";
-    /* Default terminal emulator */
     terminal: "kitty";
     /* Format for drun mode (Icon + App Name) */
     drun-display-format: "{icon} {name}";
