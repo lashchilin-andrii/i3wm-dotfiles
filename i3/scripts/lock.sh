@@ -31,4 +31,7 @@ i3lock \
   --ring-width 10 \
   --ignore-empty-password \
   --pass-media-keys \
-  --show-failed-attempts
+  --show-failed-attempts \
+  --noinput-text="No Input" \
+  --wrong-text="Wrong!" \
+  --verif-text="Verifying…"
