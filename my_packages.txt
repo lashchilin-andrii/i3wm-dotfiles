@@ -1,0 +1,27 @@
+base                  # System foundation
+base-devel            # AUR compilation tools
+brightnessctl         # Brightness control (F5-F6)
+calc                  # CLI calculator (F12)
+dunst                 # Notification daemon
+efibootmgr            # UEFI boot entry manager
+feh                   # Image viewer / wallpaper setter
+firefox               # Web browser
+flameshot             # Screenshot utility (Mod+Shift+C / PrtSc)
+git                   # Version control
+grub                  # Bootloader
+i3-wm                 # Window manager
+kitty                 # Terminal emulator
+less                  # Text pager tool
+linux                 # Kernel
+linux-firmware        # Hardware drivers/firmware
+nano                  # CLI text editor
+networkmanager        # Network daemon
+noto-fonts            # Font package
+pipewire-pulse        # PipeWire PulseAudio layer
+polybar               # Status bar
+rofi                  # Menu launcher
+sddm                  # Login manager
+sudo                  # Admin privileges tool
+wireplumber           # PipeWire session manager (F1-F3) 
+xorg-server           # Display server
+fastfetch

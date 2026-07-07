@@ -1,7 +1,7 @@
 Copy all or selected theme from src ant folder and specify the path in the file below
 
 Uncomment and edit following line in /etc/default/grub to your selected theme:
-GRUB_THEME="/home/$USERNAME/.config/grub/themes/catppuccin-mocha-grub-theme/theme.txt"
+GRUB_THEME="/boot/grub/themes/catppuccin-mocha-grub-theme/theme.txt"
 
 Update grub:
 sudo grub-mkconfig -o /boot/grub/grub.cfg
