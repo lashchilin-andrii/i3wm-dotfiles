@@ -26,3 +26,5 @@ wireplumber           # PipeWire session manager (F1-F3)
 xorg-server           # Display server
 fastfetch
 openssh
+btop
+playerctl             # Players control 
