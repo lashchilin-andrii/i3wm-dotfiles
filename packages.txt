@@ -22,9 +22,12 @@ polybar               # Status bar
 rofi                  # Menu launcher
 sddm                  # Login manager
 sudo                  # Admin privileges tool
-wireplumber           # PipeWire session manager (F1-F3) 
+wireplumber           # PipeWire session manager (F1-F3)
 xorg-server           # Display server
-fastfetch
-openssh
-btop
-playerctl             # Players control 
+fastfetch             # System information display tool
+openssh               # SSH remote access daemon/client
+btop                  # Interactive resource monitor
+playerctl             # Players control
+mpv                   # Video player
+tlp                   # Battery and power management daemon
+yay                   # AUR helper and pacman wrapper
