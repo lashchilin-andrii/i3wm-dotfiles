@@ -31,3 +31,5 @@ playerctl             # Players control
 mpv                   # Video player
 tlp                   # Battery and power management daemon
 yay                   # AUR helper and pacman wrapper
+tesseract
+xclip
