@@ -17,6 +17,7 @@ linux-firmware        # Hardware drivers/firmware
 nano                  # CLI text editor
 networkmanager        # Network daemon
 noto-fonts            # Font package
+noto-fonts-cjk        # Font package for Chinese, Japanese, and Korean
 pipewire-pulse        # PipeWire PulseAudio layer
 polybar               # Status bar
 rofi                  # Menu launcher

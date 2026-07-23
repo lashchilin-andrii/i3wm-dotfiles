@@ -54,7 +54,7 @@ bindsym Print exec flameshot full -p ~/pictures/screenshots
 # Screenshot (snipping tool)
 bindsym $mod+Shift+s exec flameshot gui -c 
 # Screenshot (english text selection)
-bindsym $mod+Shift+c exec flameshot gui --raw | tesseract -l eng stdin stdout | xclip -selection clipboard
+bindsym $mod+Shift+c exec --no-startup-id ~/.config/i3/scripts/tesseract_selection.sh
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -173,7 +173,7 @@ for_window [class="^.*"] border pixel 1
 gaps inner 10px
 
 # Startup wallpaer
-exec_always --no-startup-id feh --bg-scale /home/andrew/pictures/wallpapers/wall.jpg
+exec_always --no-startup-id feh --bg-scale /home/andrew/pictures/wallpapers/wall_3.png
 # Change wallpaper
 bindsym $mod+Shift+w exec --no-startup-id ~/.config/i3/scripts/random_wallpaper.sh
 
